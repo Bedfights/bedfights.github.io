@@ -108,6 +108,7 @@ header{
     margin: 0;
     float: right;
     display:none;
+    text-align:right;
 }
 #menuButton:hover {
   text-shadow: 
@@ -150,6 +151,7 @@ h1 {
     margin-top: 16vh;
     margin-left: auto;
     margin-right: auto;
+    text-align:center;
 }
 .smallContainer h2 {
     margin:0;
@@ -246,12 +248,12 @@ h1 {
         width: 90vw;
     }
     #sC1, #sC2, #sC3, #sC4 {
-        width: 100%;
+        width: calc(100% - 3vw);
         float:none;
         margin-top:2vh;
     }
     #vC1 {
-        width: 93vw;
+        width: 100%;
         height: 52.3vw;
         margin-top: 2vh;
         float: none;
@@ -259,6 +261,7 @@ h1 {
     #section1 {
         height: calc(880px + 52.3vw + 10vh);
     }
+    /*780 10 52.3*/
     #section2 {
         margin-top: 80px;
         text-align:center;
