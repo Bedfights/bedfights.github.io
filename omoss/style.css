@@ -22,7 +22,7 @@ body {
 #menu a {
     margin-top:10vh;
     text-decoration:none;
-    font-family:sans-serif;
+    font-family:arial;
     color:rgb(240, 240, 230);
 }
 .selectButton {
@@ -30,7 +30,7 @@ body {
     border-style:solid;
     border-color:rgb(240, 240, 230);
     text-decoration:none;
-    font-family:sans-serif;
+    font-family:arial;
     font-size:2vh;
     color:rgb(240, 240, 230);
     margin-top:7vh;
@@ -136,7 +136,7 @@ h1 {
     font-size:6vh;
     font-weight:100;
     text-align:center;
-    font-family:sans-serif;
+    font-family:arial;
     color:white;
 }
 
@@ -145,7 +145,7 @@ h1 {
 /* ******* */
 .content {
     width: 60vw;
-    font-family:sans-serif;
+    font-family:arial;
     font-weight:400;
     margin-top: 16vh;
     margin-left: auto;
@@ -222,7 +222,7 @@ h1 {
 #section2 h2 {
     color:rgb(30,60,90);
     font-size:30px;
-    font-family:sans-serif;
+    font-family:arial;
     display:block;
     float:right;
 }
