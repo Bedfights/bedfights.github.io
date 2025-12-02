@@ -262,7 +262,7 @@ background-color:rgb(30, 60, 90);
     #flexText {
         display:flex;
         flex-direction:column;
-        width:55%;
+        width:100%;
     }
     #cI1, #cI2, #cI3, #submit {
         /* 4x2 */
@@ -279,7 +279,8 @@ background-color:rgb(30, 60, 90);
         width: 6vh;
         display:flex;
         flex-direction:column;
-        float:right;
+        align-items:flex-end;
+        margin-left:auto;
         margin-top: -22vh;
     }
     #social1, #social2, #social3 {
